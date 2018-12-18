@@ -1,0 +1,46 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Hernandez2SFCA
+</name>
+</assembly>
+<members>
+<member name="T:Hernandez2SFCA.My.ThisAddIn">
+<summary>
+A class for looking up declarative information in the associated configuration xml file (.esriaddinx).
+</summary>
+</member>
+<member name="T:Hernandez2SFCA.My.ThisAddIn.IDs">
+<summary>
+A class for looking up Add-in id strings declared in the associated configuration xml file (.esriaddinx).
+</summary>
+</member>
+<member name="P:Hernandez2SFCA.My.ThisAddIn.IDs.E2SFCA">
+<summary>
+Returns 'Hernandez2SFCA_E2SFCA', the id declared for Add-in Button class 'E2SFCA'
+</summary>
+</member>
+<member name="M:Hernandez2SFCA.My.Internal.AddInStartupObject.GetThis">
+ <summary>
+ Expose this instance of Add-in class externally
+ </summary>
+</member>
+<member name="T:Hernandez2SFCA.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Hernandez2SFCA.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Hernandez2SFCA.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+</members>
+</doc>
